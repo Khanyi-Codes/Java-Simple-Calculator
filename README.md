@@ -1,4 +1,5 @@
-#Simple Calculator App
+# Simple Calculator App
+
 A basic Java calculator that performs arithmetic operations on two numbers.
 Features
 
