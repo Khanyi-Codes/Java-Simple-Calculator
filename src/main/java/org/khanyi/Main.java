@@ -1,12 +1,21 @@
 package org.khanyi;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(calculator("12 + 3"));
+
+        Scanner sum = new Scanner(System.in);
+        System.out.println("Enter your calculation ");
+        String cs = sum.nextLine();
+        System.out.println(calculator(cs));
+
     }
     public static float calculator( String calc){
+
+        
         String[] nums = calc.split(" ");
         float num1 = Float.parseFloat(nums[0]);
         String operator = nums[1];
