@@ -24,23 +24,37 @@ public class Main {
         float result = 0 ;
 
         if (operator.equals("+")){
-            result = num1 + num2 ;
+            result= add(num1, num2);
 
         }
         else if (operator.equals("-")){
-            result = num1 - num2 ;
+            result = substract(num1, num2);
         }
         else if (operator.equals("*")){
-            result = num1 * num2 ;
+            result = multiply(num1 , num2);
         }
         else if (operator.equals("/")) {
-            result = num1 / num2;
+            result = divide(num1, num2);
 
         }
 //
         return result;
 //        System.out.println(num2);
-
-
+    }
+    public static float add(float num1, float num2){
+        float sum = num1 + num2;
+        return sum;
+    }
+    public static float substract(float num1, float num2){
+        float diff= num1 - num2;
+        return diff;
+    }
+    public static float multiply(float num1, float num2){
+        float product= num1 * num2;
+        return product;
+    }
+    public static float divide(float num1, float num2){
+        float quotient= num1 / num2;
+        return quotient;
     }
 }
