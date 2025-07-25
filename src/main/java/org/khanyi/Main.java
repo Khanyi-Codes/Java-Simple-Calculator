@@ -22,7 +22,7 @@ public class Main {
         float num2 = Float.parseFloat(nums[2]);
 
         float result = 0 ;
-while(true) {
+
     if (operator.equals("+")) {
         result = add(num1, num2);
 
@@ -34,11 +34,11 @@ while(true) {
         result = divide(num1, num2);
 
     } else {
-        System.out.println("Error");
+        System.out.println("Number Format Exception");
     }
 //
     return result;
-}
+
 //        System.out.println(num2);
     }
     public static float add(float num1, float num2){
