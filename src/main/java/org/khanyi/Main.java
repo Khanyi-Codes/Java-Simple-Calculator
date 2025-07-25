@@ -22,23 +22,23 @@ public class Main {
         float num2 = Float.parseFloat(nums[2]);
 
         float result = 0 ;
+while(true) {
+    if (operator.equals("+")) {
+        result = add(num1, num2);
 
-        if (operator.equals("+")){
-            result= add(num1, num2);
+    } else if (operator.equals("-")) {
+        result = substract(num1, num2);
+    } else if (operator.equals("*")) {
+        result = multiply(num1, num2);
+    } else if (operator.equals("/")) {
+        result = divide(num1, num2);
 
-        }
-        else if (operator.equals("-")){
-            result = substract(num1, num2);
-        }
-        else if (operator.equals("*")){
-            result = multiply(num1 , num2);
-        }
-        else if (operator.equals("/")) {
-            result = divide(num1, num2);
-
-        }
+    } else {
+        System.out.println("Error");
+    }
 //
-        return result;
+    return result;
+}
 //        System.out.println(num2);
     }
     public static float add(float num1, float num2){
