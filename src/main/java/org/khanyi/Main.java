@@ -31,15 +31,15 @@ public class Main {
     } else if (operator.equals("*")) {
         result = multiply(num1, num2);
     } else if (operator.equals("/")) {
-        result = divide(num1, num2);
+        result = divide(num1,  num2);
 
     } else {
         System.out.println("Number Format Exception");
     }
-//
+
     return result;
 
-//        System.out.println(num2);
+
     }
     public static float add(float num1, float num2){
         float sum = num1 + num2;
