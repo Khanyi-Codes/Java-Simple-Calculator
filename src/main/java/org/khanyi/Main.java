@@ -27,7 +27,7 @@ public class Main {
         result = add(num1, num2);
 
     } else if (operator.equals("-")) {
-        result = substract(num1, num2);
+        result = subtract(num1, num2);
     } else if (operator.equals("*")) {
         result = multiply(num1, num2);
     } else if (operator.equals("/")) {
@@ -45,7 +45,7 @@ public class Main {
         float sum = num1 + num2;
         return sum;
     }
-    public static float substract(float num1, float num2){
+    public static float subtract(float num1, float num2){
         float diff= num1 - num2;
         return diff;
     }
