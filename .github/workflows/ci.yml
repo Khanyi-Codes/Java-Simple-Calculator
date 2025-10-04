@@ -37,6 +37,6 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: target/calculator-1.0-SNAPSHOT.jar
+          files: target/Calculator-1.0-SNAPSHOT.jar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
