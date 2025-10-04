@@ -38,7 +38,7 @@ Compile the Java file:
 bashjavac org/khanyi/Main.java
 
 Run the application:
-bashjava org.khanyi.Main
+bashjava org.khanyi.Calculator
 
 
 Code Structure

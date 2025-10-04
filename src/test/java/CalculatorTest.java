@@ -1,12 +1,10 @@
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
-import org.khanyi.Main;
 
 import static org.junit.Assert.assertEquals;
-import static org.khanyi.Main.add;
-import static org.khanyi.Main.calculator;
+import static org.khanyi.Calculator.calculator;
 
-public class calculatorTest {
+public class CalculatorTest {
     int result ;
 
     @Test
